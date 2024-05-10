@@ -1,13 +1,13 @@
 import Container from "@/app/_components/container";
-import CompanyInfo from "@/app/_components/company"
-
 
 export default function Index() {
 
   return (
     <main>
       <Container>
-        <CompanyInfo />
+        <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
+          <div>About Page....</div>
+        </section>
       </Container>
     </main>
   );
