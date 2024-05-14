@@ -15,6 +15,7 @@ const Menu = () => {
           src="/icons/whole-logo.png"
           width={150}
           height={150}
+          priority={true}
         />
         <nav className="text-center md:text-left md:text-2xl text-xl mt-5 md:pl-8 text-logo-white">
           <Link href={`/`} className={`hover:underline mr-3 ${pathname === '/' ? 'text-green' : ''}`}>

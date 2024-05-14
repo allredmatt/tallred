@@ -24,7 +24,7 @@ const config: Config = {
         yellow: "#FFE66D",
         red: "#F87060",
         dark: "#4B4E6D",
-        green: "#76E7CD",
+        green: "#58a4b0",
         light: "#D8D4F2",
       },
       spacing: {
