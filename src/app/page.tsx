@@ -1,5 +1,5 @@
 import Container from "@/app/_components/container";
-import CompanyInfo from "@/app/_components/company"
+import Services from "@/app/_components/services"
 
 
 export default function Index() {
@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <main>
       <Container>
-        <CompanyInfo />
+        <Services/>
       </Container>
     </main>
   );
