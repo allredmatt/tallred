@@ -2,7 +2,6 @@ import Container from "@/app/_components/container";
 import { HeroPost } from "@/app/_components/hero-post";
 import { Intro } from "@/app/_components/intro";
 import { MoreStories } from "@/app/_components/more-stories";
-import Menu from "@/app/_components/menu"
 import { getAllPosts } from "@/lib/api";
 
 export default function Index() {

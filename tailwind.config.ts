@@ -26,6 +26,7 @@ const config: Config = {
         dark: "#4B4E6D",
         green: "#58a4b0",
         light: "#D8D4F2",
+        selected: "#58A4B0",
       },
       spacing: {
         28: "7rem",

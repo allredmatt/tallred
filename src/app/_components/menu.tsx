@@ -18,16 +18,16 @@ const Menu = () => {
           priority={true}
         />
         <nav className="text-center md:text-left md:text-2xl text-xl mt-5 md:pl-8 text-logo-white">
-          <Link href={`/`} className={`hover:underline mr-3 ${pathname === '/' ? 'text-green' : ''}`}>
+          <Link href={`/`} className={`hover:underline mr-3 ${pathname === '/' ? 'text-selected' : ''}`}>
             Services
           </Link>
-          <Link href={`/about`} className={`hover:underline mr-3 ${pathname === '/about' ? 'text-green' : ''}`}>
+          <Link href={`/about`} className={`hover:underline mr-3 ${pathname === '/about' ? 'text-selected' : ''}`}>
             About
           </Link>
-          <Link href={`/blog`} className={`hover:underline mr-3 ${pathname === '/blog' ? 'text-green' : ''}`}>
+          <Link href={`/holding`} className={`hover:underline mr-3 ${pathname === '/blog' ? 'text-selected' : ''}`}>
             Blog
           </Link>
-          <Link href={`/contact`} className={`hover:underline mr-3 ${pathname === '/contact' ? 'text-green' : ''}`}>
+          <Link href={`/contact`} className={`hover:underline mr-3 ${pathname === '/contact' ? 'text-selected' : ''}`}>
             Contact
           </Link>
         </nav>
